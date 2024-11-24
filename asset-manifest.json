@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/drone_detection/static/css/main.2182cb00.css",
+    "main.js": "/drone_detection/static/js/main.e903154c.js",
+    "index.html": "/drone_detection/index.html",
+    "main.2182cb00.css.map": "/drone_detection/static/css/main.2182cb00.css.map",
+    "main.e903154c.js.map": "/drone_detection/static/js/main.e903154c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2182cb00.css",
+    "static/js/main.e903154c.js"
+  ]
+}
