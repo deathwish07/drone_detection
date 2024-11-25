@@ -7,10 +7,10 @@ const Header = () => {
       <h1 style={styles.title}>YOLO Drone Detection</h1>
       <nav>
         <ul style={styles.navList}>
-          <li><a href="/" style={styles.navItem}>Home</a></li>
-          <li><a href="#image" style={styles.navItem}>Image Detection</a></li>
-          <li><a href="#real" style={styles.navItem}>Real Time Detection</a></li>
-          <li><a href="#about" style={styles.navItem}>About us</a></li>
+          <li><a href="/drone_detection" style={styles.navItem}>Home</a></li>
+          <li><a href="/image" style={styles.navItem}>Image Detection</a></li>
+          <li><a href="/" style={styles.navItem}>Real Time Detection</a></li>
+          <li><a href="/about" style={styles.navItem}>About us</a></li>
         </ul>
       </nav>
     </header>

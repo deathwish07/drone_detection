@@ -21,8 +21,13 @@ const RealTimeDetection = () => {
     const startCamera = async () => {
       try {
         const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-        videoRef.current.srcObject = stream;
-        videoRef.current.play();
+        const video = videoRef.current;
+
+        // Ensure video is not already playing before calling play
+        if (video && video.paused) {
+          video.srcObject = stream;
+          video.play();
+        }
       } catch (error) {
         console.error("Error accessing camera:", error);
       }
